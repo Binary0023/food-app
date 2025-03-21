@@ -1,0 +1,44 @@
+name: note_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  intl: ^0.20.2
+  fluttertoast: ^8.2.12
+  shared_preferences: ^2.5.2
+  provider: ^6.1.2
+  timeline_tile: ^2.0.0
+  table_calendar: ^3.2.0
+  fl_chart: ^0.70.2
+  material_design_icons_flutter: ^7.0.7296
+  google_maps_flutter: ^2.10.1
+  lottie: ^3.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/sushi.png
+    - assets/images/pasta.png
+    # Add any additional unique images here
+
+  # Uncomment and modify the fonts section if you need custom fonts
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
